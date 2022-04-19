@@ -190,7 +190,9 @@ int move(int arr[], int n, int m) {
 		arr[i + m] = arr[i];
 		arr[i] = tmparr[i];
 	}
+	return 0;
 }
+
 void scanArr() {
 	int a[20];
 	int i, n, m;

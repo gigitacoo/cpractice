@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.out",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
                 "-I",
                 "C:\\gigitaco\\cpractice\\src",
                 "-std=c++17"
